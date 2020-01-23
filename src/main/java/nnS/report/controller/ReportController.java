@@ -20,4 +20,21 @@ public class ReportController {
 
 		return mv;
 	}
+	
+	@RequestMapping(value = "/myPage/reportList")	// 본인신고내역 리스트
+	public ModelAndView reportList() throws Exception {
+		ModelAndView mv = new ModelAndView("community/report/reportList");
+		
+		return mv;		
+	}
+	
+	@RequestMapping(value = "/myPage/reportDetial")
+	public ModelAndView reportDetail() throws Exception {
+		ModelAndView mv = new ModelAndView("community/report/reportDetail");
+		
+		return mv;		
+	}
+	
+	
+	
 }
