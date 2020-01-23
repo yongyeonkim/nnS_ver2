@@ -6,13 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <!-- 이미지 롤오버효과 스크립트입니다. -->
-<link rel="stylesheet" type="text/css" href="/pet/resources/css/a.css" />
-<link rel="stylesheet" type="text/css" href="/pet/resources/css/reset.css" />
-<link rel="stylesheet" type="text/css" href="/pet/resources/css/layout.css" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="/pet/resources/js/common.js"></script>
-<script type="text/javascript" src="/pet/resources/js/cc.js"></script>
-<title>nns#</title>
+<link rel="stylesheet" type="text/css" href="resources/css/a.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/layout.css" />
+
+<title>nnS#</title>
 </head>
 <body>
 	<div id="header">
