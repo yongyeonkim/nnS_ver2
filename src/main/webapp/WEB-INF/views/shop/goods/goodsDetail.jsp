@@ -147,8 +147,8 @@ html ul.goodsTabs li.active, html ul.goodsTabs li.active a:hover  {
    <div id="vertical_tab-container">
       <ul>
          <li class="selected"><a href="goodsList">전체상품</a></li>
-         <li><a href="goodsList">인기상품</a></li>
-         <li><a href="goodsList">신규상품</a></li>
+         <li><a href="allgoodsList">인기상품</a></li>
+         <li><a href="newgoodsList">신규상품</a></li>
          <li><a href="goodsList">카테고리</a></li>
       </ul>
    </div>
