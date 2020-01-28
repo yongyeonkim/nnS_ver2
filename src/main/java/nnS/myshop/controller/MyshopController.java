@@ -21,7 +21,7 @@ public class MyshopController {
 		return mv;
 	}
 	
-	@RequestMapping(value="/myshop/saliList")
+	@RequestMapping(value="/myshop/saleList")
 	public ModelAndView myshopSaleList() throws Exception{
 		ModelAndView mv = new ModelAndView("/myshop/saleList");
 
