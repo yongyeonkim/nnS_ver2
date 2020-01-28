@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="resources/css/a.css" />
 <link rel="stylesheet" type="text/css" href="resources/css/reset.css" />
 <link rel="stylesheet" type="text/css" href="resources/css/layout.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <title>nnS#</title>
 </head>

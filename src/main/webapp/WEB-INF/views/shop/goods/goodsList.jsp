@@ -73,16 +73,16 @@ h1 {font-size: 3em; margin: 20px 0; color: #FFF;}
   <div id="content">
    <div id="vertical_tab-container">
       <ul>
-         <li><a href="orderList">주문내역 조회</a></li>
-         <li><a href="goodsList">판매내역 조회</a></li>
-         <li class="selected"><a href="goodsLikeList">좋아요</a></li>
-         <li><a href="goodsList">최근 본 상품</a></li>
+         <li class="selected"><a href="goodsList">전체상품</a></li>
+         <li><a href="goodsList">인기상품</a></li>
+         <li><a href="goodsList">신규상품</a></li>
+         <li><a href="goodsList">카테고리</a></li>
       </ul>
    </div>
    <div id="main-container">
 	<table border="1" align="center">
 		<li>
-          좋아요
+          전체상품
       	</li>
 		<table border="0" align="center">
           <tr>
