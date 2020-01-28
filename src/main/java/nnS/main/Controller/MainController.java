@@ -1,4 +1,4 @@
-package nnS.main.controller;
+package nnS.main.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,6 +13,7 @@ public class MainController {
 	@RequestMapping(value="/main")
     public ModelAndView main(CommandMap commandMap) throws Exception{
     	ModelAndView mv = new ModelAndView("/member/main/main");
+    	
     	return mv; 
     }
 }
