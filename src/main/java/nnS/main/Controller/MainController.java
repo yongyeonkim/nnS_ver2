@@ -10,11 +10,11 @@ import nnS.common.common.CommandMap;
 @Controller
 public class MainController {
 
-		@RequestMapping(value="/main")
-	    public ModelAndView main(CommandMap commandMap) throws Exception{
-	    	ModelAndView mv = new ModelAndView("/member/main/main");
-	    	return mv; 
-	    }
+	@RequestMapping(value="/main")
+    public ModelAndView main(CommandMap commandMap) throws Exception{
+    	ModelAndView mv = new ModelAndView("/member/main/main");
+    	return mv; 
+    }
 }
 		
 		

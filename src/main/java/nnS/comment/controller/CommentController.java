@@ -8,14 +8,28 @@ import org.springframework.web.servlet.ModelAndView;
 public class CommentController {
 
 	@RequestMapping(value="/shop/goodsDetail/commentWrite")
-	public ModelAndView commentWrite() throws Exception{
+	public ModelAndView shopCommentWrite() throws Exception{
 		ModelAndView mv = new ModelAndView("redirect:/shop/goodsDetail");
 
 		return mv;
 	}
 	
 	@RequestMapping(value="/shop/goodsDetail/commentDelete")
-	public ModelAndView commentDelete() throws Exception{
+	public ModelAndView shopCommentDelete() throws Exception{
+		ModelAndView mv = new ModelAndView("redirect:/shop/goodsDetail");
+
+		return mv;
+	}
+
+	@RequestMapping(value="/community/boardDetail/commentWrite")
+	public ModelAndView boardCommentWrite() throws Exception{
+		ModelAndView mv = new ModelAndView("redirect:/shop/goodsDetail");
+
+		return mv;
+	}
+	
+	@RequestMapping(value="/community/boardDetail/commentDelete")
+	public ModelAndView boardCommentDelete() throws Exception{
 		ModelAndView mv = new ModelAndView("redirect:/shop/goodsDetail");
 
 		return mv;

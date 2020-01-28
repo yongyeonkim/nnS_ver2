@@ -18,7 +18,7 @@ public class JoinController {
 
 	@RequestMapping(value = "/joinForm") //회원가입 폼 
 	public ModelAndView joinForm(CommandMap commandMap) throws Exception {
-		ModelAndView mv = new ModelAndView("member/main/joinForm");
+		ModelAndView mv = new ModelAndView("member/join/joinForm");
 		return mv;
 	}
 	
