@@ -1,4 +1,4 @@
-package nnS.main.Controller;
+package nnS.main.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
